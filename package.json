@@ -1,0 +1,25 @@
+{
+  "name": "node-openpath-poller",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:marclundgren/node-openpath-poller.git",
+  "author": "Marc Lundgren <marclundgren2.0@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^12.6.0",
+    "yarn": "^1.16.0"
+  },
+  "scripts": {
+    "start": "node --experimental-modules index.js"
+  },
+  "engineStrict": true,
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "moment": "^2.24.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2"
+  }
+}
